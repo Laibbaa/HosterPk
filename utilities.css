@@ -1,0 +1,142 @@
+.height-3rem{
+    height: 3rem;
+}
+.height-85{
+    height: 85px;
+}
+.bg-light-blue{
+    background-color: #1E5EE7;
+}
+.bg-blue{
+    background-color: rgb(20, 87, 230);
+}
+.bg-grey{
+    background-color: #f9fafb;
+}
+.bg-orange{
+    background-color: rgb(247, 131, 38);
+}
+.bg-transparent{
+    background-color: transparent;
+}
+.grey{
+    color:#6b6b7e;
+}
+.black{
+    color: black;
+}
+.orange{
+   color: rgb(247, 131, 38);
+}
+.bg-gray-transparent{
+    background-color: #dfecfa;
+}
+.bg-grey{
+    background-color: #f9fafb;
+}
+.bg-green{
+    background-color: rgb(23, 202, 104);
+}
+.gap-2rem{
+    gap: 2rem;
+}
+.gap-1{
+    gap:1rem;
+}
+.light{
+color: rgba(255, 255, 255, 0.8);}
+.py-70{
+    padding-top: 70px;
+padding-bottom: 70px;
+}
+.py-50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.op-8{
+    opacity: .8;
+}
+.op-3{
+    opacity: .3;
+}
+.p-1{
+    padding: 1.5rem;
+}
+.transf-duration{
+    transition-duration: .5s;
+}
+.border-radius-50px{
+    border-radius: 50px;
+}
+.box-shadow{
+   box-shadow:  0 3px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.fs-46{
+    font-size: 46px;
+}
+.grid-temp-col{
+    grid-template-columns: 25rem 25rem;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.font-size-3{
+    font-size: 3rem;
+}
+.width-425{
+    width: 425px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-small{
+    font-size: small;
+}
+.border-top-primary{
+    border-top: 2px solid rgb(20, 87, 230);
+}
+.br-17px{
+    border-radius: 17px;
+}
+.border-top-secondary{
+    border-top: 2px solid rgba(247, 132, 38, 0.678);
+}
+.border-top-green{
+    border-top: 2px solid rgb(23, 202, 104);
+}
+.w-20{
+    width: 20%;
+}
+.br-white{
+    border-color: rgba(255, 255, 255, 0.1) !important;
+
+}
+.bg-primary-transparent {
+    background-color: #1457e638 ;
+    border: 1px solid #76a1fca1;
+}
+.bg-secondary-transparent{
+    background-color: rgba(247, 131, 38, .2);
+    border: 1px solid rgba(247, 131, 38, .5);
+}
+.bg-green-transparent{
+    background-color: rgba(23, 202, 104, .2);
+    border: 1px solid rgba(23, 202, 104, .5);
+}
+.all-ease-03 {
+    transition: all ease 0.3s;
+}
+.op-5{
+    opacity: .5;
+}
+.ms-20{
+    margin-left: -20%;
+}
+.mt--55px{
+    margin-top: -55px;
+}
+
+.bg-primary-gradient {
+    background: radial-gradient(circle, rgb(13, 202, 240) 0%, rgb(20, 87, 230) 100%);
+}
