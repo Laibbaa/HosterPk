@@ -9,6 +9,7 @@ body {
   font-size: 1rem;
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 400;
+  
   color:#6b6b7e;
   overflow-y: scroll;
   line-height: 1.5;
@@ -102,6 +103,12 @@ cursor: pointer;
 .domain{
   position: relative;
 }
+.Servers{
+  position: relative;
+}
+.Support{
+  position: relative;
+}
 .dropdown {
   background-color: rgb(255, 255, 255);
   padding: 1em 0;
@@ -112,7 +119,7 @@ cursor: pointer;
   /* width: 70vw; */
   z-index: 5;
   /* height: 60vh; */
-  left: -100px
+  left: -100px;
 
 }
 .dropdown li + li {
@@ -152,10 +159,16 @@ cursor: pointer;
 .domain:hover .dropdown {
   display: block;
 }
+
 .dropdown-list{
   display: grid;
   grid-template-columns: 25rem 25rem 25rem;
 }
+.dropdown-lists{
+  display: grid;
+  grid-template-columns: 30rem 30rem ;
+}
+
 .menu-lable::before{
   content: "";
     height: 1px;
@@ -215,7 +228,7 @@ a{
   background-position: center;
   background-size: cover;
   opacity: 0.1;
-  /* z-index: -1; */
+  z-index: -1;
 }
 .fav-icon{
   width: 25px;
@@ -765,7 +778,7 @@ hr{
     height: 250px;
     left: inherit;
     right: 0;
-    bottom: -5%;
+    bottom: 3%;
     
     background: linear-gradient(to left, rgb(20, 87, 230, .2) 0%, transparent 100%);
 
@@ -820,13 +833,13 @@ right: 0;
 .feature-card:hover::after{
   background-color: #1e5ee740;
 }
-/* 
-.table-bordered>:not(caption)>*>*{
-  /* border-width: none !important; */
 
-/* .table-bordered>:not(caption)>*{
+.table-bordered>:not(caption)>*>*{
+   border-width: none !important;
+}
+.table-bordered>:not(caption)>*{
   border-width: 0 !important;
-} */
+}
 .feature-card-1::before{
   content: " ";
   position: absolute;
@@ -965,7 +978,7 @@ background-color:  #17ca68;
   opacity: .1;
 }
 .feature-card-3:hover
-  .bg-info-transparent {
+  {
     background-color: rgba(78, 194, 240, 0.2);
     border: 1px solid rgba(78, 194, 240, 0.5) ;
 
@@ -1023,4 +1036,340 @@ transform: rotate(90deg);
 opacity: .2;
 z-index: -1;
 left: -10px;
+}
+.price-offer{
+  content: " ";
+  position: absolute;
+  height: 125px;
+top: 8%;
+right: 35%;
+background: url(hoster-img/hoster-pk-50.webp);
+background-size: cover;
+fill: #fff;
+text-align: center;
+padding: 24px;
+}
+.pattern-12::before{
+  content: " ";
+  position: absolute;
+  background-image: url(hoster-img/hoster-pk-51.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+  opacity: .5;
+  top:0;
+  width: 100%;
+  height: 100%;
+}
+.feature-card-4::after{
+  background:rgba(247, 132, 38);
+
+}
+.feature-card-4::before{
+  background:rgba(247, 132, 38);
+
+}
+.feature-card-5::after{
+  background: rgba(23, 202, 104);
+}
+.feature-card-5::before{
+  background: rgba(23, 202, 104);
+}
+.feature-card-6::before{
+  background: rgba(236, 95, 103);
+}
+.feature-card-6::after{
+  background: rgba(236, 95, 103);
+}
+.feature-card-7::after{
+  background: rgb(47, 185, 240);
+}
+.feature-card-7::before{
+  background: rgb(37, 180, 236);
+}
+.feature-card-8::before{
+  background: rgba(245, 177, 75);
+}
+.feature-card-8::after{
+  background: rgba(245, 177, 75);
+}
+.avatar-md{
+  height: 3rem;
+  width: 3rem;
+
+}
+.avatar-xl{
+  height: 4rem;
+  width: 5rem;
+
+}
+.searchbar{
+  border: 1px solid #aaa;
+  border-radius: 3px;
+    padding: 5px;
+    background-color: transparent;
+    margin-left: 3px
+}
+.option{
+  border: 1px solid #aaa;
+  border-radius: 3px;
+   
+    background-color: transparent;
+    padding: 4px;
+}
+.table-heading{
+ 
+  width: 258px;
+  padding: 10px 18px;
+    border-bottom: 1px solid #111;
+    background-image: url(hoster-img/hoster-pk-55.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+    text-align: center;
+    cursor:pointer;
+}
+.page-button-1{
+background: linear-gradient(to bottom, white 0%, #dcdcdc 100%);
+}
+.page-button{
+  border: 1px solid #979797;
+  display: inline-block;
+    /* min-width: 1.5em; */
+    padding: 0.5em 1em;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+.page-button:hover{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.747) 0%, #000000 100%);
+  color: white;
+}
+.bg-client-feacture-1::before{
+  content: " ";
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+  width: 200px;
+    height: 200px;
+    left: 3%;
+    right: 0;
+    bottom: -5px;
+    transform: rotate(180deg);
+    background: linear-gradient(to left, rgb(20, 87, 230, .1) 0%, transparent 100%);
+
+}
+
+.hosting-Package{
+  position:relative
+}
+ .dropdwn-menu{
+  background-color: rgb(255, 255, 255);
+  padding: 1em 0;
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  top: 40px;
+  border-top: 2px solid orange ;
+  width: 80vw;
+  z-index: 5;
+  color:black;
+  /* height: 60vh; */
+  /* left: -85rem */
+} 
+.hosting-Package:hover .dropdwn-menu {
+  display: block;
+}  
+.Resseller:hover .dropdwn-menu {
+  display: block;
+}  
+.Servers:hover .dropdwn-menu {
+  display: block;
+} 
+.Support:hover .dropdwn-menu {
+  display: block;
+} 
+.Resseller{
+  position: relative
+}
+/* .dropdown-items{
+  width:50%;
+} */
+.dropdown-items::before{
+  content: "";
+  position:absolute;
+  
+  width: 7px;
+  height: 7px;
+  border: 1px solid rgb(247, 131, 38);
+  border-radius: 50%;
+  left: 12px;
+  top: 8px;
+
+}
+.Store{
+  position: relative;
+}
+.Store:hover .dropdwn-menu {
+  display: block;
+} 
+.Store:hover .dropdwn-menu{
+  display: block;
+}
+.More:hover .dropdwn-menu {
+  display: block;
+} 
+.Account{
+  position: relative;
+}
+.Account:hover .dropdwn-menu {
+  display: block;
+} 
+/* .form-control::onfocus:
+{
+  border: 1px solid black;
+  outline: none;
+} */
+.arrow-down::after{
+  content: "";
+  position: absolute;
+  background-color: rgb( 20, 87, 230 );
+  height: 20px;
+  width: 20px;
+  border-start-start-radius: 100%;
+  left:50%;
+  bottom: -10px;
+  transform: rotate(45deg);
+}
+.text-logo{
+  font-size: 58px;
+  font-weight: 700;
+  text-align: center;
+  color: #4B4870;
+  margin-right: 7rem;
+
+}
+.social-links{
+  font-size: x-large;
+  letter-spacing: 14px;
+  cursor: pointer;
+}
+.transtion{
+  transition: transform .5s ease-in-out;
+}
+.transtion:hover {
+  transform: translateY(-3px);
+}
+.grey-black:hover{
+  color: red;
+}
+.sub-menu{
+  background-color: rgb(255, 255, 255);
+  padding: 15px 0;
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  padding-left: 20px;
+  top: 40px;
+  right: 0;
+ text-align: left;
+  width: 20vw;
+  z-index: 5;
+  color:black;
+  box-shadow: 0px 3px 6px 0px rgb(0,0,0,0.15);
+}
+.sub-menu li:hover{
+  color: red;
+}
+
+.PK-Domain{
+  position: relative;
+}
+.PK-Domain:hover .sub-menu{
+  display: block;
+}
+.text-heading:hover{
+  text-decoration: underline solid #65EBE7 5px;
+}
+
+.time::before{
+  content: " ";
+display: inline-block;
+  height: 2px;
+  width: 15px;
+  background-color:#FF4C60;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+.tags{
+color: #4B4870;
+display: inline-block;
+padding: 8px 8px 8px;
+line-height: 1.2;
+cursor: pointer;
+font-size: small;
+font-weight: bold;
+}
+.tags:hover{
+  color: #FF4C60;
+}
+.author-img{
+  width: 35px;
+  height: 35px;
+  position: relative;
+  left: auto;
+  top: -1px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
+  border-radius: 50%;
+  box-shadow: 0px 3px 5px -1px rgba(7,10,25,0.2);
+  font-size: 16px;
+}
+.reading-btn{
+  position: absolute;
+  background-color: #4B4870;
+  left: 50%;
+    bottom: -20px;
+    z-index: 3;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 8px 25px;
+    cursor: pointer;
+    border: none;
+    transition: transform 300ms ease;
+}
+.reading-btn::before{
+  content:'';
+  border: 3px solid #4B4870;
+  background: #fff;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+.reading-btn::after{
+  content:"Countine Reading";
+  color: white;
+  height: 100%;
+  width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 8px 15px;
+    z-index: 3;
+    background: #4B4870;
+}
+.card-text{
+  margin: 35px 0 60px;
+}
+.author:hover{
+color: #FF4C60;
+}
+.reading-btn:hover::after{
+transform: translate(-5px,-5px);
 }
